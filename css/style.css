@@ -1,0 +1,370 @@
+.header{
+    background:linear-gradient(rgba(216, 166, 38, 0.59), transparent),
+    linear-gradient(transparent, rgb(255, 255, 255)),
+                         url('../images/raffffi.jpeg') no-repeat center;
+    height: 780px;
+}
+/* linear-gradient(0deg, rgb(68, 95, 227),10%, transparent )
+linear-gradient(to top, lime, 20%, cyan) */
+
+*{
+    box-sizing: border-box;
+}
+
+.text-center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar{
+    background-color: rgb(222, 192, 19);
+}
+
+h1{
+    font-size: 4rem !important;
+}
+
+h3{
+    font-size: 2.2rem !important;
+}
+
+.p-2{
+    display: inline;
+    max-width:30%;
+}
+
+.card-body{
+}
+
+.col-lg-3{
+    margin: 5px 20px;
+}
+
+/* .card-body{
+    height: 354px;
+}
+
+@media(min-width:800px){
+    .card-body{
+        height: 330px;
+    }
+}
+
+@media(min-width:372px){
+    .card-body{
+        height: 259px;
+    }
+}
+
+
+.card-body{
+    height: 390px;
+} */
+
+.card{
+    border: none !important;
+}
+
+.col-sm-10{
+    display: flex; 
+    flex-direction: column;
+}
+.mt-auto{
+     margin-top: auto;
+ }
+
+ .view-site-button{
+    display: block;
+     width: 100%;
+ }
+
+ footer{
+     background-color: rgba(209, 92, 252, 0.777);
+     display: block;
+     width: 100vw;
+     padding: 20px;
+ }
+
+
+ .footer-text{
+     margin-left: 40px;
+     margin-bottom:0;
+ }
+
+ .social-link{
+     margin-left:auto;
+     margin-right: 40px;
+ }
+
+ .about{
+     margin: 30px 0 30px;
+ }
+
+ @media(min-width:768px){
+     .ml{
+     margin-left: 10px;
+ }
+ .about{
+    width:60vw !important;
+}
+}
+h4,.modal-skills p{
+    margin-left:13px;
+}
+
+
+.overlay-text{
+        opacity:0;
+        background-color:rgba(141, 141, 141, 0.329);
+}
+.overlay-text:hover{
+    transition: 0.5s opacity ease-in;
+    opacity: 0.8;
+}
+
+
+
+.project-container{
+    display: flex;
+}
+
+.background-gray{
+    background-color: rgb(243, 243, 243);
+    border-radius: 6px;
+    padding: 8px 5px;
+}
+
+#home{
+    width: 100vw;
+    z-index: 300;
+}
+button:hover,
+.background-gray:hover{
+    cursor: pointer;
+}
+
+
+
+.card-img-top:hover{
+    border: 1px rgb(201, 201, 201) solid;
+}
+
+
+.overlay-text,
+.card-img-top{
+    /* border-radius: 10px; */
+}
+
+button{
+    color:rgb(25, 0, 255);
+}
+
+
+.background-white{
+    background-color:white;
+    border-radius: 10px;
+}
+
+.background-black{
+    background-color: black;
+    color:white;
+    
+    border-radius: 10px;
+}
+
+.hide{
+    width:0;
+    height:0;
+}
+
+
+body{
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+.notifications {
+    display: inline-block;
+}
+
+.notifications {
+    transition: background-color 1s ease-in-out;
+    margin: 10px;
+}
+
+.notifications {
+    width: 80px;
+    height: 30px;
+    background-color: rgb(172, 172, 172);
+    border-radius: 35px;
+    margin-left: 0;
+}
+
+
+
+
+#switch{
+    opacity: 0;
+    position: relative;
+    width: 0;
+    height: 0;
+}
+
+
+
+.label {
+    height: 40px;
+}
+
+
+
+.notifications{
+    transition: background-color 1s ease-in-out;
+    margin: 10px;
+}
+input:checked + .notifications:before{
+    transform: translateX(50px);
+}
+
+input:checked + .notifications{
+    background-color: rgb(82, 82, 165);
+}
+
+#switch{
+    opacity:0;
+    position: relative;
+    width:0;
+    height:0;
+}
+
+
+
+input:checked + .notifications .on{
+    display: inline;
+    color: white;
+}
+
+input:checked + .notifications .off{
+    display: none;
+    color: white;
+}
+
+
+.dark-mode{
+    margin-right: auto;
+    margin-bottom: 0;
+    height: 60%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* .save{
+    display: block;
+    width: 80%;
+    margin: auto;
+} */
+
+.setting{
+    width: 60%;
+    margin: auto;
+}
+
+.save,
+.cancel{
+    width: 60vw;
+}
+
+@media(min-width: 768px){
+    .save,
+    .cancel{
+        width: 30vw;
+    }
+
+
+}
+
+.img-container{
+    padding: 20px;
+}
+
+@media(max-width: 768px){
+    .about-contact{
+        flex-direction: column;
+    }
+}
+
+.github:hover{
+    fill: gray;
+    cursor: pointer;
+}
+
+
+body{
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.arrow{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+
+.bg-confetti-animated {
+    background-color: gold;
+    z-index:-1;
+    background-repeat: repeat-x;
+    background-position: top -10px center;
+    background-image: url("data:image/svg+xml,%3Csvg width='600' height='90' viewBox='0 0 600 90' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='42' y='-10' width='6' height='10'/%3E%3Crect x='84' y='-10' width='6' height='10'/%3E%3Crect x='126' y='-13' width='5' height='13'/%3E%3Crect x='168' y='-13' width='5' height='13'/%3E%3Crect x='210' y='-10' width='6' height='10'/%3E%3Crect x='252' y='-13' width='5' height='13'/%3E%3Crect x='294' y='-10' width='6' height='10'/%3E%3Crect x='336' y='-13' width='5' height='13'/%3E%3Crect x='378' y='-13' width='5' height='13'/%3E%3Crect x='420' y='-10' width='6' height='10'/%3E%3Crect x='462' y='-10' width='6' height='10'/%3E%3Crect x='504' y='-13' width='5' height='13'/%3E%3Crect x='546' y='-10' width='6' height='10'/%3E%3Cstyle type='text/css'%3E rect %7B opacity: 0; %7D rect:nth-child(1) %7B transform-origin: 45px 5px; transform: rotate(-145deg); animation: blast 700ms infinite ease-out; animation-delay: 88ms; animation-duration: 631ms; %7D rect:nth-child(2) %7B transform-origin: 87px 5px; transform: rotate(164deg); animation: blast 700ms infinite ease-out; animation-delay: 131ms; animation-duration: 442ms; %7D rect:nth-child(3) %7B transform-origin: 128px 6px; transform: rotate(4deg); animation: blast 700ms infinite ease-out; animation-delay: 92ms; animation-duration: 662ms; %7D rect:nth-child(4) %7B transform-origin: 170px 6px; transform: rotate(-175deg); animation: blast 700ms infinite ease-out; animation-delay: 17ms; animation-duration: 593ms; %7D rect:nth-child(5) %7B transform-origin: 213px 5px; transform: rotate(-97deg); animation: blast 700ms infinite ease-out; animation-delay: 122ms; animation-duration: 476ms; %7D rect:nth-child(6) %7B transform-origin: 255px 6px; transform: rotate(57deg); animation: blast 700ms infinite ease-out; animation-delay: 271ms; animation-duration: 381ms; %7D rect:nth-child(7) %7B transform-origin: 297px 5px; transform: rotate(-46deg); animation: blast 700ms infinite ease-out; animation-delay: 131ms; animation-duration: 619ms; %7D rect:nth-child(8) %7B transform-origin: 338px 6px; transform: rotate(-65deg); animation: blast 700ms infinite ease-out; animation-delay: 85ms; animation-duration: 668ms; %7D rect:nth-child(9) %7B transform-origin: 380px 6px; transform: rotate(13deg); animation: blast 700ms infinite ease-out; animation-delay: 128ms; animation-duration: 377ms; %7D rect:nth-child(10) %7B transform-origin: 423px 5px; transform: rotate(176deg); animation: blast 700ms infinite ease-out; animation-delay: 311ms; animation-duration: 508ms; %7D rect:nth-child(11) %7B transform-origin: 465px 5px; transform: rotate(108deg); animation: blast 700ms infinite ease-out; animation-delay: 108ms; animation-duration: 595ms; %7D rect:nth-child(12) %7B transform-origin: 506px 6px; transform: rotate(62deg); animation: blast 700ms infinite ease-out; animation-delay: 105ms; animation-duration: 375ms; %7D rect:nth-child(13) %7B transform-origin: 549px 5px; transform: rotate(16deg); animation: blast 700ms infinite ease-out; animation-delay: 149ms; animation-duration: 491ms; %7D rect:nth-child(odd) %7B fill: %2365BB5C; %7D rect:nth-child(even) %7B z-index: 1; fill: %2333AAFF; %7D rect:nth-child(4n) %7B animation-duration: 1400ms; fill: %23F23B14; %7D rect:nth-child(3n) %7B animation-duration: 1750ms; animation-delay: 700ms; %7D rect:nth-child(4n-7) %7B fill: %232A2F6A; %7D rect:nth-child(6n) %7B fill: %23FBBA23; %7D @keyframes blast %7B from %7B opacity: 0; %7D 20%25 %7B opacity: 1; %7D to %7B transform: translateY(90px); %7D %7D %3C/style%3E%3C/svg%3E%0A");
+}
+
+.thing{
+    position: absolute;
+    top: 0;
+}
+
+.fontie{
+    font-family: calligraphy;
+}
+
+.stuff{
+    margin-left:30px;
+}
+
+/* body{
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+} */
+
+.sike{
+    margin-top:100px;
+}
+
+.img-fluid{
+    margin:10px;
+}
+
+h4, img, h3, h1{
+    margin-left:30px;
+}
